@@ -3,25 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <title>EO Portfolio</title>
-    <link rel="stylesheet" href="./Develop/assets/resetcss" />
+    <link rel="stylesheet" href="./Develop/assets/reset.css" />
     <link rel="stylesheet" href="./Develop/assets/stylecss" />
   </head>
 
   <body>
     <header>
-      <h1>EO</h1>
+      <div class="header-container">
+      <h1>E Ogbonna</h1>
       <nav>
         <ul>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact Me</a></li>
-          <li><a href="#">Resume</a></li>
+          <li><a href="section-about">About Me</a></li>
+          <li><a href="section-work">Work</a></li>
+          <li><a href="section-contact">Contact Me</a></li>
+          <li><a href="section-resume">Resume</a></li>
         </ul>
       </nav>
+      </div>
     </header>
 
     <main>
-          <h2>About Me</h2>
+          <h2 id="section-about">About Me</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              natus recusandae amet nostrum odit, ut unde non sint, quia sed
+              inventore odio, delectus iure! Eligendi vitae fuga blanditiis
+              accusamus tempore!
+            </p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
               natus recusandae amet nostrum odit, ut unde non sint, quia sed
@@ -29,24 +37,24 @@
               accusamus tempore!
             </p>
 
-          <h2>Work</h2>
+          <h2 id="section-work">Work</h2>
             <ul>
               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
               <li>Nihil natus recusandae amet nostrum odit</li>
               <li>Eligendi vitae fuga blanditiis accusamus tempore</li>
             </ul>
 
-          <h2>Contact Me</h2>
+          <h2 id="section-contact">Contact Me</h2>
             <ul>
-              <li><a href="#" target="_blank">Email</a></li>
+              <li><a href="mailto:elogtechmail@gmail.com" target="_blank">Email</a></li>
               <li><a href="https://www.linkedin.com/in/elizabeth-ogbonna/" target="_blank">LinkedIn</a></li>
               <li><a href="https://github.com/eloghub/" target="_blank">Github</a></li>
             </ul>
 
-          <h2>Resume</h2>
+          <h2 id="section-resume">Resume</h2>
             <p>
               Below is the current version of my resume, updated through January 2021:</br>
-              <img src="#">
+              <img src="./Assets/resume.JPG" />              ">
             </p>
     </main>
 

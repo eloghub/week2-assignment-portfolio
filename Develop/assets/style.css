@@ -8,6 +8,14 @@
     height: 100%;
   }
   
+  .header-container {
+      background-image: url(https://image.freepik.com/free-vector/abstract-background-design-dark-gray_53876-43538.jpg);
+      height: 20%;
+      background-position: center;
+      position: relative;
+  }
+  
+
   body {
     min-height: 100%;
     line-height: 1;
