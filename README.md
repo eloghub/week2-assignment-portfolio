@@ -28,15 +28,13 @@ NOTES/CHALLENGES:
 
 +when including images, I used relative links for two photos that are in a specific folder in this repository, then I hyperlinked the third (header) image.
 
-+lines 17-20 (HTML) - I created anchor links in the navigation bar to link to the four h2s. Initially I struggled because I forgot to put the # in front of the id names.
++lines 16-19 (HTML) - I created anchor links in the navigation bar to link to the four h2s. Initially I struggled because I forgot to put the # in front of the id names.
 
 +all h2s needed to floated left, while their corresponding content was floated right.
 
-+
++somewhere along the way I misplaced my header background image and was unable to retrace my steps.
 
-
-SCREENSHOT:
-
++I realized that instead of creating separate divs for each nav item, I could instead create "sections" in the HTML file (so they were also commented out in the css file).
 
 
 LINK:
