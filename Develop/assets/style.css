@@ -7,6 +7,7 @@
   
   html {
     height: 100%;
+    width: 100%
   }
   
   .header-container {
@@ -27,6 +28,7 @@
      text-align: center;
      padding: 20px;
      float: left;
+     background-color: none;
  } 
  
 nav {
@@ -36,6 +38,8 @@ nav {
     text-decoration: none;
     text-align: center;
     float: right;
+    flex-direction: row;
+    background-color: none;
 }
 
   body {
@@ -48,6 +52,11 @@ nav {
     line-height:150%;
 
   }
+  
+/* .background-image{
+    width:100%;
+    flex-flow: inherit;
+} */
 
   h2 {
     color: #000000;
@@ -55,43 +64,49 @@ nav {
     text-align: left;
     padding: 20px;
     float: left;
+    width: 30%;
 } 
 
-.about p {
+/* .about p {
     color: #000000;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     float: right;
-}
+    width: 70%;
+} */
 
-.work p {
+/* .work p {
     color: #000000;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     float: right;
-}
+    width: 70%;
+} */
 
 .work img{
     float: right;
     transition: all 1s ease-in-out;
 }
 
-.contact p {
+/* .contact p {
     color: #000000;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     float: right;
-}
+    width: 70%;
+    flex-direction: row;
+} */
 
-.resume p {
+section p {
     color: #000000;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     float: right;
+    width: 70%;
 }
 
 a {
@@ -105,4 +120,6 @@ footer{
     float: center;
     padding: 20px;
     font-size: 30px;
+    border-width: 5px;
+    border-color: #000000;
 }
