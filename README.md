@@ -26,7 +26,9 @@ Grading Requirements:
 
 NOTES/CHALLENGES:
 
-+line (HTML) - 
++when including images, I used relative links for two photos that are in a specific folder in this repository, then I hyperlinked the third (header) image.
+
++lines 17-20 (HTML) - I created anchor links in the navigation bar to link to the four h2s. Initially I struggled because I forgot to put the # in front of the names.
 
 +
 

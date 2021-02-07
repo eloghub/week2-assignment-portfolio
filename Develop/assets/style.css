@@ -10,14 +10,34 @@
   
   .header-container {
       background-image: url(https://image.freepik.com/free-vector/abstract-background-design-dark-gray_53876-43538.jpg);
-      height: 20%;
+      height: 100%;
       background-position: center;
       position: relative;
   }
+
+  .header-text {
+      text-align: center;
+      color: blanchedalmond;
+  }
   
+ h1 {
+     color:whitesmoke;
+     background-color: darkgray;
+     margin: 0;
+ } 
+ 
+nav {
+    display: flex;
+    color: blanchedalmond;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
 
   body {
     min-height: 100%;
     line-height: 1;
     font-family: sans-serif;
+    background-color: #efeee7;
+
   }
