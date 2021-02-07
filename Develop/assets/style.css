@@ -1,7 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
+    background-color: darkgray;
   }
   
   html {
@@ -22,8 +23,10 @@
   
  h1 {
      color:whitesmoke;
-     background-color: darkgray;
      margin: 0;
+     text-align: center;
+     padding: 20px;
+     float: left;
  } 
  
 nav {
@@ -32,12 +35,58 @@ nav {
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
+    float: right;
 }
 
   body {
     min-height: 100%;
     line-height: 1;
     font-family: sans-serif;
-    background-color: #efeee7;
 
   }
+
+  h2 {
+    color: #000000;
+    margin: 0;
+    text-align: left;
+    padding: 20px;
+    float: left;
+} 
+
+.about p {
+    color: #000000;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+.work p {
+    color: #000000;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+.contact p {
+    color: #000000;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+.resume p {
+    color: #000000;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+footer{
+    color: #ffffff;
+    text-align: center;
+    float: center;
+}
