@@ -41,7 +41,11 @@ nav {
   body {
     min-height: 100%;
     line-height: 1;
+    margin: 0;
+    padding: 10;
     font-family: sans-serif;
+    font-size: 15px;
+    line-height:150%;
 
   }
 
@@ -69,6 +73,11 @@ nav {
     float: right;
 }
 
+.work img{
+    float: right;
+    transition: all 1s ease-in-out;
+}
+
 .contact p {
     color: #000000;
     text-align: center;
@@ -85,8 +94,15 @@ nav {
     float: right;
 }
 
+a {
+    color:#d21034;
+}
+
 footer{
+    flex-shrink: 0;
     color: #ffffff;
     text-align: center;
     float: center;
+    padding: 20px;
+    font-size: 30px;
 }

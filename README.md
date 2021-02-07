@@ -30,7 +30,7 @@ NOTES/CHALLENGES:
 
 +lines 17-20 (HTML) - I created anchor links in the navigation bar to link to the four h2s. Initially I struggled because I forgot to put the # in front of the id names.
 
-+All h2s needed to floated left, while their corresponding content was floated right.
++all h2s needed to floated left, while their corresponding content was floated right.
 
 +
 
@@ -40,3 +40,4 @@ SCREENSHOT:
 
 
 LINK:
++deployed application - https://eloghub.github.io/week2-assignment-portfolio/
